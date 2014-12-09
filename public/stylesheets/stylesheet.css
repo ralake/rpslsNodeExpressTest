@@ -1,0 +1,58 @@
+body {
+  font-family: 'horror';
+  font-size: 20pt;
+  margin: 1% 1% 1% 1%;
+  background-image: url('../images/grim.gif');
+  background-size: 100%;
+  color: #800000;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+@font-face {
+  font-family: 'horror';
+  src: url('../fonts/DoubleFeature20.ttf');
+}
+
+.choices img {
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.50;
+  margin: auto;
+  transition: 1s all ease;
+ }
+
+.choices img:hover {
+  opacity: 1;
+}
+
+h2, h3 {
+  font-family: 'horror';
+  font-size: 20pt;
+  margin: 1% 1% 1% 1%;
+  color: #800000;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#results {
+  list-style: none;
+}
+
+#results li {
+  text-align: center;
+  height: 50;
+  background-image: url('../images/blood.png');
+  color: #281815;
+  font-size: 30px;
+  text-shadow: -2px 0 #B20000, 0 2px #B20000, 2px 0 #B20000, 0 -2px #B20000;
+  border-radius: 8px;
+  padding: 5px;
+  padding-top: 20px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: none;
+}
